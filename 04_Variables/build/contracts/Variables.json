@@ -1,0 +1,86 @@
+{
+  "contractName": "Variables",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Variables.sol\":\"Variables\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Variables.sol\":{\"keccak256\":\"0xafb63c6daba9882f34dd542d36eb3fd9c9e772104243677838b663bec6942b7f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3962d7e093482b56afea2711e559c307a808a41b350c416b2ec2b8a20d4db097\",\"dweb:/ipfs/QmdNAyiaapoRzTDFMjRR6tz4eqfrM1kZZdzTYDse9vpGx6\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122072725b8e39b74d09ab865dbd3fa77d3e254af70b7fd97bef207246a3fb04ebf464736f6c63430008110033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122072725b8e39b74d09ab865dbd3fa77d3e254af70b7fd97bef207246a3fb04ebf464736f6c63430008110033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:23:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "66:23:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Variables {\n\n}\n",
+  "sourcePath": "/Users/zhouyinhui/Documents/github/SolidityByExample/04_Variables/contracts/Variables.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Variables.sol",
+    "exportedSymbols": {
+      "Variables": [
+        2
+      ]
+    },
+    "id": 3,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Variables",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "Variables",
+        "nameLocation": "75:9:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "66:23:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:58:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
+  },
+  "networks": {
+    "1337": {
+      "events": {},
+      "links": {},
+      "address": "0x79631F1052254b4d67C24b3601e0Bb2F9Fc19c21",
+      "transactionHash": "0x36350e74e7d00a21774f606acc585c7dda9349900b980813b6aa82c0089854e5"
+    }
+  },
+  "schemaVersion": "3.4.11",
+  "updatedAt": "2022-12-28T10:35:39.828Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
